@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Todo List</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+	<div class="root">
+		<header>
+			<div class="container">
+				<div class="row">
+					<button class="toggle">
+
+					</button>
+					<div class="logo">
+						<h1>Your notepad</h1>
+						<img src="./img/image 1.png" alt="">
+					</div>
+				</div>
+
+			</div>
+		</header>
+
+		<main>
+			<div class="container">
+				<div class="form">
+					<form class="main__form">
+						<div class="row">
+
+							<input placeholder="Write title" type="text">
+							<button class="add">Add</button>
+						</div>
+						<textarea placeholder="Write text" class="add-text"></textarea>
+					</form>
+				</div>
+				<div class="filter row">
+					<h2>Your todos</h2>
+				</div>
+				<div class="content">
+
+				</div>
+				<div class="modal">
+					<div class="modal__window">
+						<div class="row">
+							<h2>Edit your todo</h2>
+							<button class="close__modal">x</button>
+						</div>
+
+						<form class="edit__form">
+							<div class="row">
+								<input placeholder="Write title" required type="text">
+								<button class="change-text add">Edit</button>
+							</div>
+							<textarea placeholder="Write text" class="add-text"></textarea>
+						</form>
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+
+	<footer>
+		<div class="container">
+			<div class="footer__row">
+				<span>Made by me Forze School</span>
+			</div>
+		</div>
+	</footer>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.0/FileSaver.min.js"
+		integrity="sha512-csNcFYJniKjJxRWRV1R7fvnXrycHP6qDR21mgz1ZP55xY5d+aHLfo9/FcGDQLfn2IfngbAHd8LdfsagcCqgTcQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="./script.js"></script>
+</body>
+
+</html>
